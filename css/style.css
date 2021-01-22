@@ -1,0 +1,144 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: coral;
+}
+
+.bg h1 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    transform: rotate(-10deg);
+    font-size: 60px;
+}
+
+.bg p {
+    color: white;
+    text-align: center;
+    transform: rotate(-10deg);
+    font-size: 60px;
+}
+
+.bg hr {
+    width: 350px;
+    margin: auto;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+.parallax hr {
+    width: 350px;
+    margin: auto;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+.parallax p {
+    color: white;
+    text-align: center;
+}
+
+.parallax h1 {
+    transform: rotate(-10deg);
+    font-size: 60px;
+}
+
+.jadwal p {
+    text-align: right;
+    font-size: 50px;
+}
+
+.jadwal-1 p {
+    font-size: 20px;
+}
+
+
+.dan {
+    font-size: 100px;
+}
+
+.waktu p {
+    text-align: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/1.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.akad {
+    text-align: center;
+}
+
+.tempat-akad {
+    text-align: center;
+}
+
+.img-qr {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav p {
+    color: white;
+    display: block;
+    margin: auto;
+}
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    img {
+        align-items: center;
+        width: 576px;
+        height: auto;
+    }
+ } */
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
