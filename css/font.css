@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Header";
+    src: url(../font/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Utama";
+    src: url(../font/Dosis-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../font/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url(../font/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Pinyon";
+    src: url(../font/PinyonScript-Regular.ttf);
+}

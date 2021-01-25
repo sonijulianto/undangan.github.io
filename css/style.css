@@ -10,6 +10,16 @@ body {
 .bg {
     background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
     height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-bawah {
+    background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
+    height: 450px;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,57 +35,61 @@ body {
 }
 
 .btn:hover {
-    background-color: coral;
+    background-color: rgb(63, 63, 63);
 }
 
 .bg h1 {
     color: white;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 130px;
+    padding-right: 60px;
     transform: rotate(-10deg);
-    font-size: 60px;
+    font-size: 75px;
+    font-family: "Header";
+}
+
+.bg-bawah h1 {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-right: 60px;
+    transform: rotate(-10deg);
+    font-size: 75px;
+    font-family: "Header";
 }
 
 .bg p {
     color: white;
     text-align: center;
     transform: rotate(-10deg);
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+.bg-bawah p {
+    color: white;
+    text-align: center;
+    transform: rotate(-10deg);
+    font-size: 50px;
+    margin-top: -35px;
 }
 
 .bg hr {
-    width: 350px;
+    width: 250px;
     margin: auto;
     border: 1px solid white;
-    opacity: 1;
+    opacity: 0.9;
 }
 
-.parallax hr {
-    width: 350px;
-    margin: auto;
-    border: 1px solid white;
-    opacity: 1;
-}
-
-.parallax p {
-    color: white;
-    text-align: center;
+.satu p {
+    font-family: "Utama";
+    font-size: 16px;
 }
 
 .parallax h1 {
     transform: rotate(-10deg);
     font-size: 60px;
 }
-
-.jadwal p {
-    text-align: right;
-    font-size: 50px;
-}
-
-.jadwal-1 p {
-    font-size: 20px;
-}
-
 
 .dan {
     font-size: 100px;
@@ -91,6 +105,7 @@ body {
 
   /* Set a specific height */
   height: 500px;
+  width: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -118,6 +133,132 @@ nav p {
     color: white;
     display: block;
     margin: auto;
+}
+
+.bg-1 {
+    background-image: url("../img/wp1862844.jpg");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.bg-1 h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+bg-1 img {
+    width: 500px;
+    height: 500px;
+}
+
+.bg-1 p {
+    color: white;
+    text-align: justify;
+}
+
+.bg-1 h4 {
+    color: white;
+}
+
+.story {
+    margin: auto;
+}
+
+.love {
+}
+
+.img-2 {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+}
+
+
+/*Membuat lebar sesuai dengan ukuran lebar class responsive*/
+.img-3 img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/*membuat box-size pada body*/
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    float: left;
+    width: 24.99999%;
+}
+
+.bg-2 {
+    background-image: url("../img/wp1862844.jpg");
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.bg-2 h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.bg-2 p {
+    text-align: center;
+    color: white;
+}
+
+.placeholder::-webkit-input-placeholder{
+    color: #F8F9F9;
+    opacity: 70%;
+}
+ 
+/*support mozilla*/
+.placeholder:-moz-input-placeholder{
+    color: white;
+}
+ 
+/*support internet explorer*/
+.placeholder:-ms-input-placeholder{
+    color: white;
+}
+
+/*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
+@media only screen and (max-width: 992px){
+    .responsive {
+        width: 33.33333%;
+    }
+}
+/*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
+@media only screen and (max-width: 768px){
+    .responsive {
+        width: 33.33333%;
+    }
+}
+/*berfungsi untuk mengubah style class responsive pada lebar maksimum 500px*/
+@media only screen and (max-width: 600px){
+    .responsive {
+        width: 33.33333%;
+    }
+}
+/*clearfix adalah cara praktis yang digunakan untuk clear element yang sebelumnya mengalami float*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
