@@ -241,17 +241,26 @@ bg-1 img {
     .responsive {
         width: 33.33333%;
     }
+    body {
+        overflow-x: hidden;
+    }
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
 @media only screen and (max-width: 768px){
     .responsive {
         width: 33.33333%;
     }
+    body {
+        overflow-x: hidden;
+    }
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 500px*/
 @media only screen and (max-width: 600px){
     .responsive {
         width: 33.33333%;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 /*clearfix adalah cara praktis yang digunakan untuk clear element yang sebelumnya mengalami float*/
