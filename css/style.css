@@ -318,8 +318,8 @@ bg-1 img {
     }
     iframe {
         align-items: center;
-        width: 450px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
     }
     
 }
@@ -333,8 +333,8 @@ bg-1 img {
     }
     iframe {
         align-items: center;
-        width: 450px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
     }
 }
 /*clearfix adalah cara praktis yang digunakan untuk clear element yang sebelumnya mengalami float*/
