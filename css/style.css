@@ -266,6 +266,22 @@ bg-1 img {
 .placeholder:-ms-input-placeholder{
     color: white;
 }
+
+#demo {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald';
+    margin-bottom: -10px;
+}
+
+#demo-1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+
 @media only screen and (max-width: 1900px){
     .responsive {
         width: 25%;
@@ -318,7 +334,7 @@ bg-1 img {
     }
     iframe {
         align-items: center;
-        width: 350px;
+        width: 330px;
         height: 300px;
     }
     
@@ -333,7 +349,7 @@ bg-1 img {
     }
     iframe {
         align-items: center;
-        width: 350px;
+        width: 330px;
         height: 300px;
     }
 }
