@@ -268,7 +268,7 @@ bg-1 img {
 }
 @media only screen and (max-width: 1900px){
     .responsive {
-        width: 33.33333%;
+        width: 25%;
     }
     body {
         overflow-x: hidden;
@@ -280,12 +280,17 @@ bg-1 img {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    iframe {
+        align-items: center;
+        width: 400px;
+        height: 300px;
     }
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
 @media only screen and (max-width: 992px){
     .responsive {
-        width: 33.33333%;
+        width: 25%;
     }
     body {
         overflow-x: hidden;
@@ -297,6 +302,10 @@ bg-1 img {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    iframe {
+        align-items: center;
+        width: auto;
     }
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
@@ -307,6 +316,11 @@ bg-1 img {
     body {
         overflow-x: hidden;
     }
+    iframe {
+        align-items: center;
+        width: 450px;
+        height: 350px;
+    }
     
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 500px*/
@@ -316,6 +330,11 @@ bg-1 img {
     }
     body {
         overflow-x: hidden;
+    }
+    iframe {
+        align-items: center;
+        width: 450px;
+        height: 350px;
     }
 }
 /*clearfix adalah cara praktis yang digunakan untuk clear element yang sebelumnya mengalami float*/
