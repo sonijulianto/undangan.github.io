@@ -171,9 +171,6 @@ bg-1 img {
     margin: auto;
 }
 
-.love {
-}
-
 .img-2 {
     width: 250px;
     border-radius: 50%;
@@ -198,6 +195,40 @@ bg-1 img {
 .responsive {
     float: left;
     width: 24.99999%;
+}
+
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transition: 0.7;
+}
+
+.overlay a {
+    position: absolute;
+    margin-left: 97%;
+    margin-top: 20px;
+    color: white;
+}
+
+.overlay img {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .bg-2 {
@@ -235,7 +266,22 @@ bg-1 img {
 .placeholder:-ms-input-placeholder{
     color: white;
 }
-
+@media only screen and (max-width: 1900px){
+    .responsive {
+        width: 33.33333%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .overlay img {
+        max-width: 800px;
+        max-height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
 @media only screen and (max-width: 992px){
     .responsive {
@@ -243,6 +289,14 @@ bg-1 img {
     }
     body {
         overflow-x: hidden;
+    }
+    .overlay img {
+        max-width: 800px;
+        max-height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 700px*/
@@ -253,6 +307,7 @@ bg-1 img {
     body {
         overflow-x: hidden;
     }
+    
 }
 /*berfungsi untuk mengubah style class responsive pada lebar maksimum 500px*/
 @media only screen and (max-width: 600px){
