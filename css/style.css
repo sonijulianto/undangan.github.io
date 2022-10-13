@@ -8,7 +8,7 @@ body {
 }
 
 .bg {
-    background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
+    background-image: url("../img/banner1.jpeg");
     height: 100%;
     width: auto;
     background-position: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .bg-bawah {
-    background-image: url("../img/AngelaChris-prewedding-HD-0291.jpg");
+    background-image: url("../img/banner1.jpeg");
     height: 450px;
     width: auto;
     background-position: center;
@@ -101,7 +101,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/1.jpg");
+  background-image: url("../img/banner2.jpeg");
 
   /* Set a specific height */
   height: 500px;
